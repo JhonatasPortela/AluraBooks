@@ -21,3 +21,24 @@
   position: initial;
   margin: .5em 0;
 }
+
+@media screen and (min-width: 1024px){
+
+  .carrossel__titulo{
+    font-size: 26px;
+  }
+
+  .swiper-button-prev, .swiper-button-next{
+    display: block;
+  }
+
+  .swiper-slide img{
+    width: 70%;
+    margin: 2em 5em;
+  }
+
+  .swiper-pagination{
+    margin-top: 1em;
+  }
+
+}

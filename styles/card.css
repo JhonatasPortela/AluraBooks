@@ -51,3 +51,15 @@
     text-decoration: none;
   }
 
+  @media screen and (min-width: 1024px){
+    .descricao__texto{
+      font-size: 16px;
+    }
+
+    .card{
+      margin: 2em auto;
+      width: 50%;
+    }
+
+  }
+
