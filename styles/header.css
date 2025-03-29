@@ -21,6 +21,10 @@
   position: relative;
 }
 
+.container__texto{
+  display: none;
+}
+
 .container__imagem{
 padding: 0.5em;
 }
@@ -111,4 +115,25 @@ padding: 0.5em;
     display: none;
   }
 
+}
+
+@media screen and (min-width: 1728px) {
+  .container__link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--preto);
+  }
+
+  .container__texto{
+    display: block;
+  }
+
+  .opcoes{
+    margin-right: auto;
+  }
+
+  .cabeçalho{
+    padding: 0 2em;
+  }
 }

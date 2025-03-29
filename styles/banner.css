@@ -48,3 +48,13 @@
   }
 
 }
+
+@media screen and (min-width: 1728px){
+  .banner__busca{
+    width: 33%;
+  }
+
+  .banner__busca::placeholder{
+    background-position: 10.5em;
+  }
+}

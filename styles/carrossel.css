@@ -42,3 +42,21 @@
   }
 
 }
+
+@media screen and (min-width: 1728px){
+  .carrossel__container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4em;
+  }
+
+  .swiper{
+    width: 40%;
+    margin-left: 10vw;
+  }
+
+  .carrossel__titulo{
+    margin: 2em 0;
+  }
+
+}
