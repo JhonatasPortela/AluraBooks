@@ -46,6 +46,10 @@ hr{
   font-size: 14px;
 }
 
+.rodape-lista__item:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+
 }
 
 @media screen and (min-width: 1728px){
@@ -57,4 +61,5 @@ hr{
     border-left: solid 1px var(--cinza-claro);
     padding-left: 1em;
   }
+}
 }

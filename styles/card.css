@@ -73,5 +73,10 @@
       font-size: 32px;
     }
 
+    .card__saiba-mais:hover{
+      transform: scale(1.1);
+      transition: 0.3s;
+    }
+
   }
 
